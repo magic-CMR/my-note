@@ -1,0 +1,24 @@
+{
+  "name": "my-note",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gitbook serve ./content ./gh-pages",
+    "build": "gitbook build ./content ./gh-pages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magic-CMR/my-note.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/magic-CMR/my-note/issues"
+  },
+  "homepage": "https://github.com/magic-CMR/my-note#readme",
+  "dependencies": {
+    "gh-pages": "^1.0.0"
+  }
+}
